@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>&lt;no title&gt; &#8212; Buckaroo  documentation</title>
+    
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="index.html">Buckaroo  documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <p>You will notice some new files have been created in your project folder.</p>
+<p>### BUCKAROO_DEPS</p>
+<p>This file contains the dependency list that is imported by your Buck build file.</p>
+<p>### buckaroo/</p>
+<p>This folder contains the source-code of all dependencies that have been downloaded by Buckaroo. You can regenerate this folder by running <cite>buckaroo install</cite>.</p>
+<p>### .buckconfig.local</p>
+<p>This file tells Buck where to find the dependencies downloaded by Buckaroo.</p>
+<p>### Configuring .gitignore</p>
+<p>It is important to add generated files to your <cite>.gitignore</cite>. The following rules will cover them:</p>
+<p><code class="docutils literal"><span class="pre">`</span>
+<span class="pre">/buck-out/</span>
+<span class="pre">/.buckd/</span>
+<span class="pre">/buckaroo/</span>
+<span class="pre">BUCKAROO_DEPS</span>
+<span class="pre">.buckconfig.local</span>
+<span class="pre">`</span></code></p>
+<p>## FAQ</p>
+<p>### Which packages are available?</p>
+<p>You can browse officially maintained packages on [the Buckaroo website](<a class="reference external" href="http://www.buckaroo.pm">http://www.buckaroo.pm</a>). If there is a package you would like to use but is unavailable, please [log an issue on the wish-list](<a class="reference external" href="https://github.com/LoopPerfect/buckaroo-wishlist/issues/new">https://github.com/LoopPerfect/buckaroo-wishlist/issues/new</a>) and we will work to make it available.</p>
+<p>### Can I host private packages?</p>
+<p>Yes, you can. Simply add a recipe to your <cite>config.json</cite> file (it&#8217;s inside <cite>~/.buckaroo/</cite>). Note that other developers on your team must also edit their <cite>config.json</cite>.</p>
+<p>### How can I get help?</p>
+<p>We are very active on [GitHub](<a class="reference external" href="https://github.com/LoopPerfect/buckaroo">https://github.com/LoopPerfect/buckaroo</a>) and [StackOverflow](stackoverflow.com/questions/tagged/buckaroo). If you run into any issues, please report an issue and we will respond as soon as possible. We prefer to fix issues on public pages because it builds a knowledge base that others can use.</p>
+<p>### What is the relationship between Buck and Buckaroo?</p>
+<p>Buck is an open-source build system developed and maintained by Facebook. Buckaroo is a package manager for C/C++ developed and maintained by LoopPerfect. All Buckaroo dependencies use Buck as a build system, however Buckaroo is strictly a layer on top of Buck.</p>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/README.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="nav-item nav-item-0"><a href="index.html">Buckaroo  documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2017, LoopPerfect Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.5.
+    </div>
+  </body>
+</html>
