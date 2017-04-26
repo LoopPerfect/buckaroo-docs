@@ -67,3 +67,11 @@ Version
    buckaroo version
 
 Outputs the version of Buckaroo that is installed.
+
+
+Help
+----
+
+.. code-block:: bash
+
+   buckaroo help
