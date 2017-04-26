@@ -33,7 +33,7 @@ You now have everything ready to start installing dependencies.
 Adding a dependency
 -------------------
 
-Once you have a project file, we can start adding dependencies. Let's add `range-v3 by Eric Niebler <https://github.com/ericniebler/range-v3>`_. range-v3 is a powerful range library for C++ 11, 14 and 17.
+Once you have a project file, we can start adding dependencies. Let's add `range-v3 by Eric Niebler <https://github.com/ericniebler/range-v3>`_. range-v3 is a powerful range library for C++ 11 and up.
 
 .. code-block:: bash
 
@@ -41,7 +41,7 @@ Once you have a project file, we can start adding dependencies. Let's add `range
 
 Buckaroo will have downloaded the range-v3 source-code from GitHub and installed it locally in your project folder. We can now use the library in a sample application!
 
-Sample Program
+Sample Application
 --------------
 
 Our example requires some C++ 14 features, so if your compiler does not enable them by default we will need to update the project's BUCK file.
