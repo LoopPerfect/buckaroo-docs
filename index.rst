@@ -21,3 +21,4 @@ Contents
    installation
    quickstart
    cli
+   recipe
