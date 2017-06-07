@@ -59,7 +59,7 @@ Build Buckaroo with Buck:
 
 .. code-block:: bash
 
-   buck build
+   buck build :buckaroo-cli
 
 Buck will output a runnable Jar file in the output folder:
 
