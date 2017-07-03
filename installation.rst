@@ -105,13 +105,13 @@ If you wish to disable analytics, follow these steps:
 
    buckaroo version
 
-2. Open the config.json file in your Buckaroo home folder:
+2. Open the `buckaroo.json` file in your Buckaroo home folder:
 
 .. code-block:: bash
 
    open ~/.buckaroo/config.json
 
-3. Remove the property "analytics". For example:
+3. Remove the property `"analytics"`. For example:
 
 .. code-block:: javascript
 

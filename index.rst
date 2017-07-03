@@ -21,4 +21,6 @@ Contents
    installation
    quickstart
    cli
+   github
+   github-package-guide
    recipe
