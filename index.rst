@@ -24,3 +24,4 @@ Contents
    github
    github-package-guide
    recipe
+   caching

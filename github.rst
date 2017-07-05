@@ -3,8 +3,8 @@ GitHub Integration
 
 Buckaroo has GitHub integration, which allows for recipes to exist as GitHub projects. To use a GitHub project as a recipe, the following conditions must be met:
 
- - The GitHub project must have at least one tag, which is a semantic version (e.g. "v1.0")
- - The GitHub project must contain a `buckaroo.json` file at the root level.
+ - The GitHub project must have at least one tag, which is a semantic version (e.g. `"v1.0"`)
+ - The GitHub project must contain a :code:`buckaroo.json` file at the root level.
 
 If you would like to create a GitHub recipe, see :doc:`the GitHub packaging guide <github-package-guide>`.
 
