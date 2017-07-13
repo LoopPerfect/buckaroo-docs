@@ -56,6 +56,16 @@ Upgrade
 
    buckaroo upgrade
 
+Upgrades the installed dependencies to the newest version.
+
+
+Update
+-------
+
+.. code-block:: bash
+
+   buckaroo update
+
 Upgrades the cook-books installed on your system. This allows you to use benefit from recipe improvements, additions and fixes since you first installed Buckaroo.
 
 
