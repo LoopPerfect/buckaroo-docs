@@ -26,9 +26,8 @@ Verify your installation with:
 Debian/Ubuntu via .deb
 ----------------------
 
-We created a .deb file for debian and ubuntu.
-To install download the `buckaroo.deb <https://github.com/LoopPerfect/buckaroo/releases/download/v1.2.0/buckaroo_1.2.0_all.deb>`
-and either double-click to install or copy&paste the following:
+We provide a `.deb` file for Debian and Ubuntu. To install ir, download `buckaroo.deb <https://github.com/LoopPerfect/buckaroo/releases/download/v1.2.0/buckaroo_1.2.0_all.deb>`
+and either double-click to install or copy & paste the following:
 
 .. code-block:: bash
 
