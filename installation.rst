@@ -37,8 +37,8 @@ We provide a `.deb` file for Debian and Ubuntu. To install it, download `buckaro
    sudo dpkg -i buckaroo_1.2.0_all.deb
 
 
-Linux via Linuxbrew
-~~~~~~~~~~~~~~~~~~~
+Linuxbrew
+~~~~~~~~~
 
 Buckaroo can be installed using `Linuxbrew <http://linuxbrew.sh/>`_.
 
