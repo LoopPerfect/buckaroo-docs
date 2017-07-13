@@ -13,7 +13,7 @@ Add Facebook's tap so that Homebrew can find Buck.
 .. code-block:: bash
 
    brew tap facebook/fb
-   brew install --HEAD loopperfect/lp/buckaroo
+   brew install loopperfect/lp/buckaroo
 
 The Homebrew formula will install Buck and Java, if required.
 
@@ -34,7 +34,7 @@ Add Facebook's tap so that Linuxbrew can find Buck.
 .. code-block:: bash
 
    brew tap facebook/fb
-   brew install --HEAD loopperfect/lp/buckaroo
+   brew install loopperfect/lp/buckaroo
 
 The Linuxbrew formula will install Buck and Java, if required.
 
@@ -54,6 +54,7 @@ Ensure that you have `Buck <https://buckbuild.com/>`_ installed, then clone the 
 
    git clone git@github.com:njlr/buckaroo.git
    cd buckaroo
+   git checkout tags/v1.0.0
 
 Build Buckaroo with Buck:
 
