@@ -23,9 +23,21 @@ Verify your installation with:
 
    buckaroo version
 
+Debian/Ubuntu via .deb
+----------------------
 
-Linux
------
+We created a .deb file for debian and ubuntu.
+To install download the `buckaroo.deb <https://github.com/LoopPerfect/buckaroo/releases/download/v1.2.0/buckaroo_1.2.0_all.deb>`
+and either double-click to install or copy&paste the following:
+
+.. code-block:: bash
+
+   wget https://github.com/LoopPerfect/buckaroo/releases/download/v1.2.0/buckaroo_1.2.0_all.deb
+   sudo dpkg -i buckaroo_1.2.0_all.deb
+
+
+Linux via Linuxbrew
+-------------------
 
 Buckaroo can be installed using `Linuxbrew <http://linuxbrew.sh/>`_.
 
@@ -43,6 +55,9 @@ Verify your installation with:
 .. code-block:: bash
 
    buckaroo version
+   
+
+
 
 
 Windows (preview)
