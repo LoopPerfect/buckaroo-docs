@@ -47,7 +47,7 @@ Furthermore you can also ommit the organisation name and list more than one pack
 
    buckaroo install gtest boost/asio
 
-Install can also fetch buckaroo compatible projects from github using the following syntax:
+Install can also fetch :doc:`buckaroo compatible projects <github-package-guide>` from github using the following syntax:
 
 .. code-block:: bash
 
