@@ -29,7 +29,9 @@ Linux
 Debian and Ubuntu via .deb
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We provide a `.deb` file for Debian and Ubuntu. To install it, download `buckaroo.deb <https://github.com/LoopPerfect/buckaroo/releases/download/v1.2.0/buckaroo_1.2.0_all.deb>`_ and either double-click to install or copy & paste the following:
+We provide a `.deb` file for Debian and Ubuntu. To install it, download `buckaroo.deb <https://github.com/LoopPerfect/buckaroo/releases/download/v1.2.0/buckaroo_1.2.0_all.deb>`_ and double-click to install. 
+
+Alternatively, you can use the command-line:
 
 .. code-block:: bash
 
