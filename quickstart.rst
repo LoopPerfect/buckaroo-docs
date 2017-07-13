@@ -42,7 +42,7 @@ Once you have a project file, we can start adding dependencies. Let's add `range
 Buckaroo will have downloaded the range-v3 source-code from GitHub and installed it locally in your project folder. We can now use the library in a sample application!
 
 Sample Application
---------------
+------------------
 
 Our example requires some C++ 14 features, so if your compiler does not enable them by default we will need to update the project's BUCK file.
 
@@ -122,4 +122,4 @@ If you are tracking your project with Git, add the following to your .gitignore:
 Explore Buckaroo
 ----------------
 
-range-v3 is just one of the many packages already available for Buckaroo. You can browse them on `buckaroo.pm <https://www.buckaroo.pm>`_ or request more on `the wishlist <https://github.com/LoopPerfect/buckaroo-wishlist>`_.
+range-v3 is just one of the many packages already available for Buckaroo. You can browse them on `buckaroo.pm <https://www.buckaroo.pm>`_, request more on `the wishlist <https://github.com/LoopPerfect/buckaroo-wishlist>`_ or :doc:`create your own <github-package-guide>`!

@@ -23,9 +23,20 @@ Verify your installation with:
 
    buckaroo version
 
+Debian/Ubuntu via .deb
+----------------------
 
-Linux
------
+We provide a `.deb` file for Debian and Ubuntu. To install ir, download `buckaroo.deb <https://github.com/LoopPerfect/buckaroo/releases/download/v1.2.0/buckaroo_1.2.0_all.deb>`
+and either double-click to install or copy & paste the following:
+
+.. code-block:: bash
+
+   wget https://github.com/LoopPerfect/buckaroo/releases/download/v1.2.0/buckaroo_1.2.0_all.deb
+   sudo dpkg -i buckaroo_1.2.0_all.deb
+
+
+Linux via Linuxbrew
+-------------------
 
 Buckaroo can be installed using `Linuxbrew <http://linuxbrew.sh/>`_.
 
@@ -43,6 +54,9 @@ Verify your installation with:
 .. code-block:: bash
 
    buckaroo version
+   
+
+
 
 
 Windows (preview)
@@ -106,13 +120,13 @@ If you wish to disable analytics, follow these steps:
 
    buckaroo version
 
-2. Open the config.json file in your Buckaroo home folder:
+2. Open the `buckaroo.json` file in your Buckaroo home folder:
 
 .. code-block:: bash
 
    open ~/.buckaroo/config.json
 
-3. Remove the property "analytics". For example:
+3. Remove the property `"analytics"`. For example:
 
 .. code-block:: javascript
 

@@ -168,20 +168,24 @@ Dependencies
      "boost/lexical-cast": "1.63.0",
      "boost/math": "1.63.0",
      "boost/system": "1.63.0",
-     "boost/asio": "1.63.0"
+     "boost/asio": "1.63.0",
+     "github+loopperfect/neither": "*"
    }
 
 The :code:`dependencies` element defines the modules that the recipe requires to build. These are of the following format:
 
 .. code-block:: guess
 
-   <owner>/<project>: <version>
+   (<source>+)?<owner>/<project>: <version>
+
+The source section is optional and is used to refer to recipes outside of the official cookbook. The most common source is GitHub (see :doc:`github`), and more will be added over time. 
 
 A small DSL is provided for versioning:
 
 .. code-block:: guess
 
    *                    // Any version
+   v1                   // Exactly version 1.0.0
    2                    // Exactly version 2.0.0
    1.2                  // Exactly version 1.2.0
    1.2.3                // Exactly version 1.2.3
@@ -190,4 +194,4 @@ A small DSL is provided for versioning:
    >= 4.7               // Version 4.7 or greater
    <= 6.5.1             // Version 6.5.1 or greater
 
-When multiple versions of a dependency can be resolved, the higher version is always chosen. 
+When multiple versions of a dependency can be resolved, the higher version is always chosen.
