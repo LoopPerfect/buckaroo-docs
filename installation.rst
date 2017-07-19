@@ -23,6 +23,12 @@ Verify your installation with:
 
    buckaroo version
 
+Finally, fetch the cookbook with: 
+
+.. code-block:: bash
+
+   buckaroo update
+
 Linux
 -----
 
@@ -38,6 +44,11 @@ Alternatively, you can use the command-line:
    wget https://github.com/LoopPerfect/buckaroo/releases/download/v1.2.0/buckaroo_1.2.0_all.deb
    sudo dpkg -i buckaroo_1.2.0_all.deb
 
+Finally, fetch the cookbook with: 
+
+.. code-block:: bash
+
+   buckaroo update
 
 Linuxbrew
 ~~~~~~~~~
@@ -59,8 +70,11 @@ Verify your installation with:
 
    buckaroo version
    
+Finally, fetch the cookbook with: 
 
+.. code-block:: bash
 
+   buckaroo update
 
 
 Windows (preview)
@@ -87,6 +101,12 @@ Buck will output a runnable Jar file in the output folder:
    java -jar .\\buck-out\\gen\\buckaroo-cli.jar
 
 Ensure that this command is on your PATH.
+
+Finally, fetch the cookbook with: 
+
+.. code-block:: bash
+
+   buckaroo update
 
 
 Analytics
