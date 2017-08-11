@@ -44,29 +44,14 @@ Buckaroo will have downloaded the range-v3 source-code from GitHub and installed
 Sample Application
 ------------------
 
-Our example requires some C++ 14 features, so if your compiler does not enable them by default we will need to update the project's BUCK file.
+Our example requires some C++ 14 features, so if your compiler does not enable them by default we will need to update the project's `.buckconfig` file.
 
-Update BUCK to:
+Update `.buckconfig` to:
 
-.. code-block:: python
+.. code-block:: ini
 
-   include_defs('//BUCKAROO_DEPS')
-
-   cxx_binary(
-     name = 'my-project',
-     header_namespace = 'my-project',
-     srcs = glob([
-       'my-project/src/**/*.cpp',
-     ]),
-     headers = subdir_glob([
-       ('my-project/include', '**/*.hpp'),
-       ('my-project/include', '**/*.h'),
-     ]),
-     compiler_flags = [
-       '-std=c++14',
-     ],
-     deps = BUCKAROO_DEPS,
-   )
+   [cxx]
+     cxxflags = -std=c++14
 
 Now, let's update the main.cpp file to a simple range-v3 example:
 
@@ -110,4 +95,4 @@ If you are tracking your project with Git, add the following to your .gitignore:
 Explore Buckaroo
 ----------------
 
-range-v3 is just one of the many packages already available for Buckaroo. You can browse them on `buckaroo.pm <https://www.buckaroo.pm>`_, request more on `the wishlist <https://github.com/LoopPerfect/buckaroo-wishlist>`_ or :doc:`create your own <github-package-guide>`!
+range-v3 is just one of the many packages already available for Buckaroo. You can browse them on `buckaroo.pm <https://www.buckaroo.pm>`_, request more on `the wishlist <https://github.com/LoopPerfect/buckaroo-wishlist>`_ or :doc:`create your own <package-guide>`!
