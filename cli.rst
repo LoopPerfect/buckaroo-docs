@@ -47,11 +47,13 @@ Furthermore you can also ommit the organisation name and list more than one pack
 
    buckaroo install gtest boost/asio
 
-Install can also fetch :doc:`buckaroo compatible projects <github-package-guide>` from github using the following syntax:
+Install can also fetch :doc:`buckaroo compatible projects <package-guide>` from GitHub, BitBucket and GitLab using the following syntax:
 
 .. code-block:: bash
 
    buckaroo install github+loopperfect/neither
+   buckaroo install bitbucket+org/example
+   buckaroo install gitlab+org/example
 
 
 If you do not supply a module name, then the existing dependencies of the project are fetched and installed. If there is no lock file present, then the resolution process will be run first.
