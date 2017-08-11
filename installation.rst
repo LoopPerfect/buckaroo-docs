@@ -13,7 +13,7 @@ Add Facebook's tap so that Homebrew can find Buck.
 .. code-block:: bash
 
    brew tap facebook/fb
-   brew install --HEAD loopperfect/lp/buckaroo
+   brew install loopperfect/lp/buckaroo
 
 The Homebrew formula will install Buck and Java, if required.
 
@@ -23,9 +23,35 @@ Verify your installation with:
 
    buckaroo version
 
+Finally, fetch the cookbook with: 
+
+.. code-block:: bash
+
+   buckaroo update
 
 Linux
 -----
+
+Debian and Ubuntu via .deb
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+We provide a `.deb` file for Debian and Ubuntu. To install it, download `buckaroo.deb <https://github.com/LoopPerfect/buckaroo/releases/download/v1.2.1/buckaroo_1.2.1_all.deb>`_ and double-click to install. 
+
+Alternatively, you can use the command-line:
+
+.. code-block:: bash
+
+   wget https://github.com/LoopPerfect/buckaroo/releases/download/v1.2.1/buckaroo_1.2.1_all.deb
+   sudo dpkg -i buckaroo_1.2.1_all.deb
+
+Finally, fetch the cookbook with: 
+
+.. code-block:: bash
+
+   buckaroo update
+
+Linuxbrew
+~~~~~~~~~
 
 Buckaroo can be installed using `Linuxbrew <http://linuxbrew.sh/>`_.
 
@@ -34,7 +60,7 @@ Add Facebook's tap so that Linuxbrew can find Buck.
 .. code-block:: bash
 
    brew tap facebook/fb
-   brew install --HEAD loopperfect/lp/buckaroo
+   brew install loopperfect/lp/buckaroo
 
 The Linuxbrew formula will install Buck and Java, if required.
 
@@ -43,6 +69,12 @@ Verify your installation with:
 .. code-block:: bash
 
    buckaroo version
+   
+Finally, fetch the cookbook with: 
+
+.. code-block:: bash
+
+   buckaroo update
 
 
 Windows (preview)
@@ -54,6 +86,7 @@ Ensure that you have `Buck <https://buckbuild.com/>`_ installed, then clone the 
 
    git clone git@github.com:njlr/buckaroo.git
    cd buckaroo
+   git checkout tags/v1.0.0
 
 Build Buckaroo with Buck:
 
@@ -68,6 +101,12 @@ Buck will output a runnable Jar file in the output folder:
    java -jar .\\buck-out\\gen\\buckaroo-cli.jar
 
 Ensure that this command is on your PATH.
+
+Finally, fetch the cookbook with: 
+
+.. code-block:: bash
+
+   buckaroo update
 
 
 Analytics

@@ -76,7 +76,7 @@ Run the project again and you will see a list of square numbers, computed by ran
 
 .. code-block:: bash
 
-   buck run :my-project
+   buck run :main
 
 .gitignore
 ----------
