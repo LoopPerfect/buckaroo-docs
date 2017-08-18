@@ -35,13 +35,13 @@ Linux
 Debian and Ubuntu via .deb
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We provide a `.deb` file for Debian and Ubuntu. To install it, download `buckaroo.deb <https://github.com/LoopPerfect/buckaroo/releases/download/v1.3.0/buckaroo_1.3.0_all.deb>`_ and double-click to install.
+We provide a `.deb` file for Debian and Ubuntu. To install it, download `buckaroo.deb <https://github.com/LoopPerfect/buckaroo/releases/download/v1.3.1/buckaroo_1.3.1_amd64.deb>`_ and double-click to install.
 
 Alternatively, you can use the command-line:
 
 .. code-block:: bash
 
-   wget https://github.com/LoopPerfect/buckaroo/releases/download/v1.3.0/buckaroo_1.3.0_all.deb
+   wget https://github.com/LoopPerfect/buckaroo/releases/download/v1.3.1/buckaroo_1.3.1_amd64.deb
    sudo dpkg -i buckaroo_1.3.0_all.deb
 
 Finally, fetch the cookbook with:
