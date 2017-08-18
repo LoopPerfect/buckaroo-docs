@@ -21,7 +21,7 @@ Contents
    installation
    quickstart
    cli
-   github
-   github-package-guide
+   integrations
+   package-guide
    recipe
    caching

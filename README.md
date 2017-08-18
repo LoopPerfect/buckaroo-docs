@@ -1,8 +1,9 @@
-# buckaroo-docs
+# buckaroo-docs 📚
 
-You can browse the docs on [Read the Docs](http://buckaroo.readthedocs.io/). 
+You can browse the docs on [Read the Docs](http://buckaroo.readthedocs.io/).
 
-# Build
+
+# Pre-requisites
 
 You will need Python and pip installed:
 
@@ -10,6 +11,9 @@ You will need Python and pip installed:
 pip install sphinx
 pip install recommonmark
 ```
+
+
+# Build
 
 Then to build the HTML docs:
 

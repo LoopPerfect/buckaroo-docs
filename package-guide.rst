@@ -1,7 +1,7 @@
-Creating a GitHub Package
+Creating a Package
 =========================
 
-This is a guide for creating a Buckaroo recipe from a GitHub project. This is the quickest way to create and manage a package that already lives on GitHub. It is also recommended, since it allows you to control updates to your recipe.
+This is a guide for creating a Buckaroo recipe from a GitHub, BitBucket or GitLab project. This is the quickest way to create and manage a package that already lives in source-control. It is also recommended, since it allows you to control updates to your recipe.
 
 For this guide, we will be adding Buckaroo support for `an example project
 <https://github.com/LoopPerfect/buckaroo-github-example>`_. However, the steps are generic, so you should be able to follow them using your own project.
@@ -19,6 +19,8 @@ To follow this guide, you will need the following:
  - A `GitHub <https://www.github.com/>`_ account
  - Buckaroo (see :doc:`installation`)
  - Buck
+
+The steps are nearly identical for BitBucket and GitLab.
 
 
 1. Fork the example project
@@ -41,7 +43,7 @@ Next, fetch your fork from GitHub using Git:
 3. Ensure that the project builds with Buck
 -------------------------------------------
 
-All Buckaroo pacakges build with Buck, so we need to make sure that the :code:`BUCK` files are correct.
+All Buckaroo packages build with Buck, so we need to make sure that the :code:`BUCK` files are correct.
 
 In our example, we have a single library called :code:`example`. Try building it using Buck:
 
@@ -93,8 +95,8 @@ Commit the project file to GitHub:
    git push
 
 
-5. Create a release on GitHub
------------------------------
+5. Create a release
+-------------------
 
 Head over to the GitHub web-page for your project and create a release. It is important that you name the release in a format that Buckaroo understands. Buckaroo expects a version number prefixed with a :code:`"v"`. Some valid names are:
 
