@@ -25,7 +25,7 @@ Let's verify that the project is working as expected:
 
 .. code-block:: bash
 
-   buck run :my-project
+   buck run :main
 
 You now have everything ready to start installing dependencies.
 
