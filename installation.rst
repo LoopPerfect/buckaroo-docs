@@ -40,6 +40,7 @@ We provide a `.deb` file for Debian and Ubuntu. To install it, download `buckaro
 Alternatively, you can use the command-line:
 
 .. code-block:: bash
+
    deb_url='https://github.com/LoopPerfect/buckaroo/releases/download/v1.3.1/buckaroo_1.3.1_amd64.deb' 
    wget "$deb_url"
    sudo dpkg -i $(basename "$deb_url")
