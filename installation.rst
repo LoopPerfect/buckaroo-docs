@@ -62,6 +62,7 @@ Add Facebook's tap so that Linuxbrew can find Buck.
 .. code-block:: bash
 
    brew tap facebook/fb
+   brew tap loopperfect/lp
    brew install loopperfect/lp/buckaroo
 
 The Linuxbrew formula will install Buck and Java, if required.
