@@ -36,13 +36,13 @@ Linux
 Debian and Ubuntu via .deb
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We provide a `.deb` file for Debian and Ubuntu. To install it, download `buckaroo.deb <https://github.com/LoopPerfect/buckaroo/releases/download/v1.4.0/buckaroo_1.4.0_amd64.deb>`_ and double-click to install.
+We provide a `.deb` file for Debian and Ubuntu. To install it, download `buckaroo.deb <https://github.com/LoopPerfect/buckaroo/releases>`_ and double-click to install.
 
 Alternatively, you can use the command-line:
 
 .. code-block:: bash
 
-   wget -O buckaroo.deb 'https://github.com/LoopPerfect/buckaroo/releases/download/v1.4.0/buckaroo.deb' 
+   wget -O buckaroo.deb 'https://github.com/LoopPerfect/buckaroo/releases/download/v1.4.1/buckaroo.deb' 
    sudo dpkg -i buckaroo.deb
 
 
