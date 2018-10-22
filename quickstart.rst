@@ -95,4 +95,4 @@ If you are tracking your project with Git, add the following to your .gitignore:
 Explore Buckaroo
 ----------------
 
-range-v3 is just one of the many packages already available for Buckaroo. You can browse them on `buckaroo.pm <https://www.buckaroo.pm>`_, request more on `the wishlist <https://github.com/LoopPerfect/buckaroo-wishlist>`_ or :doc:`create your own <package-guide>`!
+range-v3 is just one of the many packages already available for Buckaroo. You can browse them on `buckaroo.pm <https://buckaroo.pm>`_, request more on `the wishlist <https://github.com/LoopPerfect/buckaroo-wishlist>`_ or :doc:`create your own <package-guide>`!
