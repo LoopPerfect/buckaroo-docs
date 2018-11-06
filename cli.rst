@@ -41,7 +41,7 @@ Install adds and installs dependencies to your project.
 
 Install can be used to add dependencies to your project. Since introducing a new dependency can result in a versioning conflict, the resolution process is run again. This may overwrite your lock file.
 
-Furthermore you can also ommit the organisation name and list more than one package at the same time
+Furthermore you can also ommit the organization name and list more than one package at the same time
 
 .. code-block:: bash
 
