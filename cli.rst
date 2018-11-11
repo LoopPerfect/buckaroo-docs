@@ -38,6 +38,12 @@ Install adds and installs dependencies to your project.
 .. code-block:: bash
 
    buckaroo install google/gtest
+   
+or just
+
+.. code-block:: bash
+
+   buckaroo i google/gtest
 
 Install can be used to add dependencies to your project. Since introducing a new dependency can result in a versioning conflict, the resolution process is run again. This may overwrite your lock file.
 
@@ -79,6 +85,12 @@ Uninstall
 .. code-block:: bash
 
    buckaroo uninstall google/gtest
+   
+or
+
+.. code-block:: bash
+
+   buckaroo u google/gtest
 
 Uninstall can be used to remove a dependency from your project. Note that the remaining dependencies are recomputed since their resolved versions may have changed as a result. This may overwrite your lock file.
 
