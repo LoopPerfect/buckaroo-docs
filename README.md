@@ -1,3 +1,5 @@
+# :skull::skull: The docs have moved to a [GitHub Wiki](https://github.com/LoopPerfect/buckaroo/wiki) :skull::skull:
+
 # buckaroo-docs 📚
 
 You can browse the docs on [Read the Docs](http://buckaroo.readthedocs.io/).
