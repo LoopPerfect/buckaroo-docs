@@ -3,6 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+These docs have moved! Please see the `GitHub Wiki
+<https://github.com/LoopPerfect/buckaroo/wiki/>`_. 
+===================================
+
 Buckaroo
 ====================================
 
